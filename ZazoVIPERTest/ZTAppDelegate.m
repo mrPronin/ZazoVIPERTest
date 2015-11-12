@@ -6,13 +6,13 @@
 //  Copyright © 2015 RIT. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ZTAppDelegate.h"
 
-@interface AppDelegate ()
+@interface ZTAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation ZTAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
