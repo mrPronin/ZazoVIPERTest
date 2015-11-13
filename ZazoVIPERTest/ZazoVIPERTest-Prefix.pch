@@ -1,0 +1,18 @@
+//
+//  ZazoVIPERTest-Prefix.pch
+//  ZazoVIPERTest
+//
+//  Created by Aleksandr Pronin on 11/12/15.
+//  Copyright © 2015 RIT. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

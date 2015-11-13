@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A26F03491BF50F0C00C8BAAD /* ZTAppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03481BF50F0C00C8BAAD /* ZTAppDependencies.m */; };
+		A26F03511BF511DC00C8BAAD /* ZTVideoBoxItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03501BF511DC00C8BAAD /* ZTVideoBoxItem.m */; };
+		A26F03541BF5126F00C8BAAD /* ZTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03531BF5126F00C8BAAD /* ZTDataStore.m */; };
+		A26F03571BF512B000C8BAAD /* ZTRootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03561BF512B000C8BAAD /* ZTRootWireframe.m */; };
+		A26F03621BF5157D00C8BAAD /* ZTVideoBoxesDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03611BF5157D00C8BAAD /* ZTVideoBoxesDataManager.m */; };
+		A26F03651BF5621A00C8BAAD /* ZTVideoBoxesInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03641BF5621A00C8BAAD /* ZTVideoBoxesInteractor.m */; };
+		A26F03691BF574E400C8BAAD /* ZTVideoBoxesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F03681BF574E400C8BAAD /* ZTVideoBoxesPresenter.m */; };
+		A26F036C1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F036B1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.m */; };
 		A2FF396D1BF4D83600E261E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF396C1BF4D83600E261E3 /* main.m */; };
-		A2FF39701BF4D83600E261E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF396F1BF4D83600E261E3 /* AppDelegate.m */; };
-		A2FF39731BF4D83600E261E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF39721BF4D83600E261E3 /* ViewController.m */; };
+		A2FF39701BF4D83600E261E3 /* ZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF396F1BF4D83600E261E3 /* ZTAppDelegate.m */; };
+		A2FF39731BF4D83600E261E3 /* ZTVideoBoxesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF39721BF4D83600E261E3 /* ZTVideoBoxesViewController.m */; };
 		A2FF39761BF4D83600E261E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FF39741BF4D83600E261E3 /* Main.storyboard */; };
 		A2FF39791BF4D83600E261E3 /* ZazoVIPERTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2FF39771BF4D83600E261E3 /* ZazoVIPERTest.xcdatamodeld */; };
 		A2FF397B1BF4D83600E261E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FF397A1BF4D83600E261E3 /* Assets.xcassets */; };
@@ -36,12 +44,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A26F03471BF50F0C00C8BAAD /* ZTAppDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTAppDependencies.h; sourceTree = "<group>"; };
+		A26F03481BF50F0C00C8BAAD /* ZTAppDependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTAppDependencies.m; sourceTree = "<group>"; };
+		A26F034A1BF50F5700C8BAAD /* ZazoVIPERTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZazoVIPERTest-Prefix.pch"; sourceTree = "<group>"; };
+		A26F034F1BF511DC00C8BAAD /* ZTVideoBoxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxItem.h; sourceTree = "<group>"; };
+		A26F03501BF511DC00C8BAAD /* ZTVideoBoxItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTVideoBoxItem.m; sourceTree = "<group>"; };
+		A26F03521BF5126F00C8BAAD /* ZTDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTDataStore.h; sourceTree = "<group>"; };
+		A26F03531BF5126F00C8BAAD /* ZTDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTDataStore.m; sourceTree = "<group>"; };
+		A26F03551BF512B000C8BAAD /* ZTRootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTRootWireframe.h; sourceTree = "<group>"; };
+		A26F03561BF512B000C8BAAD /* ZTRootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTRootWireframe.m; sourceTree = "<group>"; };
+		A26F03601BF5157D00C8BAAD /* ZTVideoBoxesDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesDataManager.h; sourceTree = "<group>"; };
+		A26F03611BF5157D00C8BAAD /* ZTVideoBoxesDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTVideoBoxesDataManager.m; sourceTree = "<group>"; };
+		A26F03631BF5621A00C8BAAD /* ZTVideoBoxesInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesInteractor.h; sourceTree = "<group>"; };
+		A26F03641BF5621A00C8BAAD /* ZTVideoBoxesInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTVideoBoxesInteractor.m; sourceTree = "<group>"; };
+		A26F03661BF5741C00C8BAAD /* ZTVideoBoxesModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesModuleInterface.h; sourceTree = "<group>"; };
+		A26F03671BF574E400C8BAAD /* ZTVideoBoxesPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesPresenter.h; sourceTree = "<group>"; };
+		A26F03681BF574E400C8BAAD /* ZTVideoBoxesPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTVideoBoxesPresenter.m; sourceTree = "<group>"; };
+		A26F036A1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesWireframe.h; sourceTree = "<group>"; };
+		A26F036B1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTVideoBoxesWireframe.m; sourceTree = "<group>"; };
+		A26F036D1BF57C7B00C8BAAD /* ZTVideoBoxesViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesViewInterface.h; sourceTree = "<group>"; };
+		A26F036F1BF661FC00C8BAAD /* ZTVideoBoxesInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesInteractorIO.h; sourceTree = "<group>"; };
 		A2FF39681BF4D83600E261E3 /* ZazoVIPERTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZazoVIPERTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FF396C1BF4D83600E261E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2FF396E1BF4D83600E261E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A2FF396F1BF4D83600E261E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2FF39711BF4D83600E261E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2FF39721BF4D83600E261E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2FF396E1BF4D83600E261E3 /* ZTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAppDelegate.h; sourceTree = "<group>"; };
+		A2FF396F1BF4D83600E261E3 /* ZTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTAppDelegate.m; sourceTree = "<group>"; };
+		A2FF39711BF4D83600E261E3 /* ZTVideoBoxesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTVideoBoxesViewController.h; sourceTree = "<group>"; };
+		A2FF39721BF4D83600E261E3 /* ZTVideoBoxesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTVideoBoxesViewController.m; sourceTree = "<group>"; };
 		A2FF39751BF4D83600E261E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2FF39781BF4D83600E261E3 /* ZazoVIPERTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZazoVIPERTest.xcdatamodel; sourceTree = "<group>"; };
 		A2FF397A1BF4D83600E261E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +108,174 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26F03421BF50DD600C8BAAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03441BF50EA800C8BAAD /* Common */,
+				A26F03451BF50EB400C8BAAD /* Modules */,
+				A2FF396E1BF4D83600E261E3 /* ZTAppDelegate.h */,
+				A2FF396F1BF4D83600E261E3 /* ZTAppDelegate.m */,
+				A26F03471BF50F0C00C8BAAD /* ZTAppDependencies.h */,
+				A26F03481BF50F0C00C8BAAD /* ZTAppDependencies.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A26F03431BF50DE100C8BAAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF397A1BF4D83600E261E3 /* Assets.xcassets */,
+				A2FF39741BF4D83600E261E3 /* Main.storyboard */,
+				A2FF397C1BF4D83600E261E3 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A26F03441BF50EA800C8BAAD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A26F034B1BF5113D00C8BAAD /* Categories */,
+				A26F034C1BF5114D00C8BAAD /* Model */,
+				A26F034D1BF5116600C8BAAD /* Store */,
+				A26F034E1BF5118300C8BAAD /* View */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A26F03451BF50EB400C8BAAD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03461BF50EE000C8BAAD /* VideoBoxes */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		A26F03461BF50EE000C8BAAD /* VideoBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03581BF513E900C8BAAD /* ApplicationLogic */,
+				A26F03591BF513F100C8BAAD /* ModuleInterface */,
+				A26F035A1BF513FF00C8BAAD /* UserInterface */,
+			);
+			name = VideoBoxes;
+			sourceTree = "<group>";
+		};
+		A26F034B1BF5113D00C8BAAD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A26F034C1BF5114D00C8BAAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A26F034F1BF511DC00C8BAAD /* ZTVideoBoxItem.h */,
+				A26F03501BF511DC00C8BAAD /* ZTVideoBoxItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A26F034D1BF5116600C8BAAD /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03521BF5126F00C8BAAD /* ZTDataStore.h */,
+				A26F03531BF5126F00C8BAAD /* ZTDataStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		A26F034E1BF5118300C8BAAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03551BF512B000C8BAAD /* ZTRootWireframe.h */,
+				A26F03561BF512B000C8BAAD /* ZTRootWireframe.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A26F03581BF513E900C8BAAD /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A26F035B1BF5143900C8BAAD /* Interactor */,
+				A26F035C1BF5144800C8BAAD /* Manager */,
+			);
+			name = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		A26F03591BF513F100C8BAAD /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03661BF5741C00C8BAAD /* ZTVideoBoxesModuleInterface.h */,
+			);
+			name = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		A26F035A1BF513FF00C8BAAD /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				A26F035D1BF5147800C8BAAD /* Presenter */,
+				A26F036E1BF5863D00C8BAAD /* Transition */,
+				A26F035E1BF5148100C8BAAD /* View */,
+				A26F035F1BF5148B00C8BAAD /* Wireframe */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		A26F035B1BF5143900C8BAAD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A26F036F1BF661FC00C8BAAD /* ZTVideoBoxesInteractorIO.h */,
+				A26F03631BF5621A00C8BAAD /* ZTVideoBoxesInteractor.h */,
+				A26F03641BF5621A00C8BAAD /* ZTVideoBoxesInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		A26F035C1BF5144800C8BAAD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03601BF5157D00C8BAAD /* ZTVideoBoxesDataManager.h */,
+				A26F03611BF5157D00C8BAAD /* ZTVideoBoxesDataManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		A26F035D1BF5147800C8BAAD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A26F03671BF574E400C8BAAD /* ZTVideoBoxesPresenter.h */,
+				A26F03681BF574E400C8BAAD /* ZTVideoBoxesPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		A26F035E1BF5148100C8BAAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF39711BF4D83600E261E3 /* ZTVideoBoxesViewController.h */,
+				A2FF39721BF4D83600E261E3 /* ZTVideoBoxesViewController.m */,
+				A26F036D1BF57C7B00C8BAAD /* ZTVideoBoxesViewInterface.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A26F035F1BF5148B00C8BAAD /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				A26F036A1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.h */,
+				A26F036B1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		A26F036E1BF5863D00C8BAAD /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
 		A2FF395F1BF4D83600E261E3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,16 +299,10 @@
 		A2FF396A1BF4D83600E261E3 /* ZazoVIPERTest */ = {
 			isa = PBXGroup;
 			children = (
-				A2FF396E1BF4D83600E261E3 /* AppDelegate.h */,
-				A2FF396F1BF4D83600E261E3 /* AppDelegate.m */,
-				A2FF39711BF4D83600E261E3 /* ViewController.h */,
-				A2FF39721BF4D83600E261E3 /* ViewController.m */,
-				A2FF39741BF4D83600E261E3 /* Main.storyboard */,
-				A2FF397A1BF4D83600E261E3 /* Assets.xcassets */,
-				A2FF397C1BF4D83600E261E3 /* LaunchScreen.storyboard */,
-				A2FF397F1BF4D83600E261E3 /* Info.plist */,
-				A2FF39771BF4D83600E261E3 /* ZazoVIPERTest.xcdatamodeld */,
+				A26F03421BF50DD600C8BAAD /* Classes */,
+				A26F03431BF50DE100C8BAAD /* Resources */,
 				A2FF396B1BF4D83600E261E3 /* Supporting Files */,
+				A2FF39771BF4D83600E261E3 /* ZazoVIPERTest.xcdatamodeld */,
 			);
 			path = ZazoVIPERTest;
 			sourceTree = "<group>";
@@ -120,7 +310,9 @@
 		A2FF396B1BF4D83600E261E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2FF397F1BF4D83600E261E3 /* Info.plist */,
 				A2FF396C1BF4D83600E261E3 /* main.m */,
+				A26F034A1BF50F5700C8BAAD /* ZazoVIPERTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,10 +465,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26F03511BF511DC00C8BAAD /* ZTVideoBoxItem.m in Sources */,
 				A2FF39791BF4D83600E261E3 /* ZazoVIPERTest.xcdatamodeld in Sources */,
-				A2FF39731BF4D83600E261E3 /* ViewController.m in Sources */,
-				A2FF39701BF4D83600E261E3 /* AppDelegate.m in Sources */,
+				A26F03621BF5157D00C8BAAD /* ZTVideoBoxesDataManager.m in Sources */,
+				A2FF39731BF4D83600E261E3 /* ZTVideoBoxesViewController.m in Sources */,
+				A2FF39701BF4D83600E261E3 /* ZTAppDelegate.m in Sources */,
 				A2FF396D1BF4D83600E261E3 /* main.m in Sources */,
+				A26F03571BF512B000C8BAAD /* ZTRootWireframe.m in Sources */,
+				A26F03541BF5126F00C8BAAD /* ZTDataStore.m in Sources */,
+				A26F03651BF5621A00C8BAAD /* ZTVideoBoxesInteractor.m in Sources */,
+				A26F03491BF50F0C00C8BAAD /* ZTAppDependencies.m in Sources */,
+				A26F036C1BF5763C00C8BAAD /* ZTVideoBoxesWireframe.m in Sources */,
+				A26F03691BF574E400C8BAAD /* ZTVideoBoxesPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ZazoVIPERTest/ZazoVIPERTest-Prefix.pch";
 				INFOPLIST_FILE = ZazoVIPERTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rit.ua.ZazoVIPERTest;
@@ -426,6 +627,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ZazoVIPERTest/ZazoVIPERTest-Prefix.pch";
 				INFOPLIST_FILE = ZazoVIPERTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rit.ua.ZazoVIPERTest;
@@ -437,6 +639,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "ZazoVIPERTest/ZazoVIPERTest-Prefix.pch";
 				INFOPLIST_FILE = ZazoVIPERTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rit.ua.ZazoVIPERTestTests;
@@ -449,6 +652,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "ZazoVIPERTest/ZazoVIPERTest-Prefix.pch";
 				INFOPLIST_FILE = ZazoVIPERTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rit.ua.ZazoVIPERTestTests;
@@ -460,6 +664,7 @@
 		A2FF399F1BF4D83600E261E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = "ZazoVIPERTest/ZazoVIPERTest-Prefix.pch";
 				INFOPLIST_FILE = ZazoVIPERTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rit.ua.ZazoVIPERTestUITests;
@@ -472,6 +677,7 @@
 		A2FF39A01BF4D83600E261E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = "ZazoVIPERTest/ZazoVIPERTest-Prefix.pch";
 				INFOPLIST_FILE = ZazoVIPERTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rit.ua.ZazoVIPERTestUITests;
@@ -500,6 +706,7 @@
 				A2FF399A1BF4D83600E261E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2FF399B1BF4D83600E261E3 /* Build configuration list for PBXNativeTarget "ZazoVIPERTestTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +715,7 @@
 				A2FF399D1BF4D83600E261E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2FF399E1BF4D83600E261E3 /* Build configuration list for PBXNativeTarget "ZazoVIPERTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +724,7 @@
 				A2FF39A01BF4D83600E261E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
